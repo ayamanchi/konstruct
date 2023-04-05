@@ -1,0 +1,28 @@
+@media (max-width:600px){
+    .container{
+        max-width: 570px;
+    }
+    .header__link{
+        margin-left: 35px;
+    }
+    .structure__wrapper{
+        grid-template-columns: 1fr;
+    }
+    .capabilities__wrapper{
+        flex-wrap: wrap;
+    }
+    .capabilities__info{
+        margin-top: 20px;
+    }
+    .services__wrapper{
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+    }
+    .footer__wrapper{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 60px;
+    }
+}
+.footer__links{
+    margin-bottom: 55px;
+}
